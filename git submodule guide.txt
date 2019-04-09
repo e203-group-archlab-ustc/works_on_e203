@@ -1,3 +1,4 @@
+## setup submodule
 git clone git@github.com:e203-group-archlab-ustc/works_on_e203.git
 cd <your git repo dir>
 git submodule add <your remote ssh git repo addr> <submodule name>
@@ -5,3 +6,11 @@ git commit "your comment"
 git push
 
 reference：https://blog.csdn.net/guotianqing/article/details/82391665
+
+## update submodule
+push your changes to your submodule repo
+cd <master git repo dir>
+git submodule update --remote
+git add <the files you modify>
+git commit -m "your comment"
+git push
