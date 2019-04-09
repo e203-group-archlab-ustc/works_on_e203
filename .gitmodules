@@ -4,3 +4,6 @@
 [submodule "context_switch"]
 	path = context_switch
 	url = git@github.com:zhougaochao/zero_cycle_context_switch_on_e203.git
+[submodule "multithreading"]
+	path = multithreading
+	url = git@github.com:LWSen/multithreading.git
