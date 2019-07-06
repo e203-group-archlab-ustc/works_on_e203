@@ -7,3 +7,6 @@
 [submodule "multithreading"]
 	path = multithreading
 	url = git@github.com:LWSen/multithreading.git
+[submodule "ttio_multithreading"]
+	path = ttio_multithreading
+	url = git@github.com:LWSen/ttio_multithreading.git
